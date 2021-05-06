@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/codigo.js"></script>
+    <link rel="shortcut icon" href="../img/imagen icono.png">
+    <title>Curriculum</title>
+</head>
+
+<body>
+    <div class="row padding-all" id="header">
+        <div class="header">
+            <h1>JinQuan Lin</h1>
+            <h3>Computer science student</h3>
+            <i class="fas fa-book-reader"></i>
+        </div>
+    </div>
+    <ul>
+        <li><a class="active" href="#header"><i class="fas fa-arrow-alt-circle-up"></i></a></li>
+        <li><a href="#section1">About me</a></li>
+        <li><a href="#section2">Hobbies</a></li>
+        <li><a href="#section3">Training</a></li>
+        <li><a href="#section4">Experiences</a></li>
+        <li><a href="#section5">Non-work activities</a></li>
+    </ul>
+    <div class="row flex padding-all" id="section1">
+        <div class="column1">
+            <h1>About me</h1>
+        </div>
+    </div>
+    <div class="row flex padding-all" id="section1">
+        <div class="column2">
+            <p>I am a person who is passionate about the computer world and I want to learn much</p>
+            <img src="../img/column2.jpg" alt="Portatil con coneciones red y con estadistica">
+        </div>
+        <div class="column-extra3">
+            <p>Video about me</p>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/conkYvwf-R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row padding-all" id="section2">
+        <div class="column3">
+            <h1>Hobbies</h1>
+        </div>
+    </div>
+    <div class="row padding-all" id="section2">
+        <div class="column4">
+            <p>I really like the Korean dance style and I have been dancing for 3 years</p>
+            <img src="../img/column4-1.jpg" alt="Personas bailando">
+        </div>
+        <div class="column-extra2">
+            <p>In my spare time I usually play video games, although I don't like to play alone.</p>
+            <img src="../img/column4-2.jpg" alt="Mando y fondo de juego">
+        </div>
+    </div>
+    <div class="row padding-all" id="section3">
+        <div class="column5">
+            <h1>Training</h1>
+        </div>
+    </div>
+    <div class="row padding-all" id="section3">
+        <div class="column6">
+            <p>Microinformatics and networks technician</p>
+            <p>2019-2021</p>
+            <p>Jesuïtas Bellvitge</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.1133705573866!2d2.1050974154246163!3d41.34988947926769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d64bd023fd%3A0x26089fc39cb352a3!2sCentro%20de%20Estudios%20Joan%20XXIII!5e0!3m2!1ses!2ses!4v1619547331069!5m2!1ses!2ses"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="column-extra1">
+            <p>HSK 6 (Chinese language)</p>
+            <p>2018-2019</p>
+            <p>Confucius Institute Foundation</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1779.9825543794273!2d2.166922103546625!3d41.38360215864422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a28ba73af2df%3A0xcb221d647da743d0!2sFundaci%C3%B3n%20Instituto%20Confucio!5e0!3m2!1ses!2ses!4v1619547407084!5m2!1ses!2ses"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <div class="row padding-all" id="section4">
+        <div class="column7">
+            <h1>Experiences</h1>
+        </div>
+    </div>
+    <div class="row flex padding-all" id="section4">
+        <div class="column8">
+            <p>I have had experiences as a computer technician at Jesuïtas Sarria.</p>
+            <p>He had the responsibility of solving the incidents that happened in the school, he also had the responsibility of protecting the data.</p>
+            <p>Duration: 3 Months</p>
+        </div>
+        <div class="column8">
+            <img src="../img/column8.jpg" alt="Edificio de Jesuïtas Sarria">
+        </div>
+    </div>
+    <div class="row padding-all" id="section5">
+        <div class="column9">
+            <h1>Non-work activities</h1>
+        </div>
+    </div>
+    <div class="row flex padding-all" id="section5">
+        <div class="column10">
+            <p>I volunteered helping the monitor making pottery</p>
+            <img src="../img/column10-1.jpg" alt="Abuela enseñando a niñas hacer cerámica">
+        </div>
+        <div class="column11">
+            <p>I did 2 years of jiujitsu, although I don't like it but I did it to defend myself</p>
+            <img src="../img/column10-2.jpg" alt="Arte marcial balasileña">
+        </div>
+    </div>
+    <div class="row padding-all" id="section6">
+        <div class="column12">
+            <h1> Here you can select the language</h1>
+            <select name="language" id="language" onchange="language()">
+                <option value="ES" selected>English</option>
+                <option value="EN">Spanish</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
